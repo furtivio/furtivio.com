@@ -1,57 +1,63 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Furtivio</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      color: #858585;
+    }
 
-  <link rel="stylesheet" href="static/normalize.css" type="text/css">
-  <link rel="stylesheet" href="static/css" type="text/css">
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
-  <link rel="stylesheet" href="static/foundation.css" type="text/css">
-  <link rel="stylesheet" href="static/stylesheet.css" type="text/css">
-
+    footer {
+      color: #ececec;
+    }
+  </style>
 </head>
+
 <body>
+  <main>
+    <header>
+      <h1>Furtivio</h1>
+    </header>
+    <footer>
+      2015-2026 Furtivio LLC
+    </footer>
+  </main>
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Furtivio LLC",
+    "url": "https://furtivio.com/",
+    sameAs": [
+      "https://www.linkedin.com/company/furtivio/"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "email": "info@furtivio.com"
+      }
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Austin",
+      "addressRegion": "Texas",
+      "addressCountry": "United States"
+    }
+  }
+  </script>
+</body>
 
-<main class="j-alpha j-welcome">
-
-  <section class="j-nametag text-center">
-    <span class="line-1"></span> 
-    <span class="line-2">Furtivio</span>
-  </section>
-
-    
-<footer class="j-alpha">
-  <div class="j-container j-max-width">
-
-
-    <div class="text-center">
-
-      <div class="j-schemaline" itemscope="" itemtype="http://schema.org/Corporation">
-          <span class="part">© 2015-2025</span>
-          <span class="part" itemprop="legalName">Furtivio LLC</span>
-          <span class="part" itemprop="email"><a href="mailto:info@furtivio.com">info@furtivio.com</a></span>
-          <span class="part"><a itemprop="url" href="http://furtivio.com/">furtivio.com</a></span>
-          <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
-            <span class="part" itemprop="addressLocality">Austin</span>
-            <span class="part" itemprop="addressRegion">Texas</span>
-            <span class="part" itemprop="addressCountry">United States</span>
-          </span>
-      </div>
-
-    </div>
-  </div>
-
-</footer>
-
-  </section>
-
-</main>
-
-
-
-
-</body></html>
+</html>
